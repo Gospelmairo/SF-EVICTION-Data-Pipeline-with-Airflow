@@ -25,7 +25,7 @@ OBJECT = "eviction_data"
 # Create your DAG with a unique identifier ('data_fetch_dag')
 with DAG(dag_id="Load-Eviction-Data-From-Web-To-GCS-To-BQ",
      default_args=default_args,  # Use the default arguments defined above
-     schedule_interval="0 6 2 * *",  # Schedule the DAG to run at a specific time
+     schedule_interval="0 6 2 * *",  # Schedule the DAG to run at a specific time 6:00am every month
      ) as dag:
 
     # Create a starting dummy operator

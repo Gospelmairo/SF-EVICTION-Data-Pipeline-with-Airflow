@@ -83,6 +83,7 @@ mv <path/to/your/service-account-authkeys>.json ~/.google/credentials/google_cre
 ```
 
    Below is an example
+  mv /Users/apostle/.google/credentialsgoogle_credentials.json ~/.google/credentials/google_credentials.json
    
 ```
 mv  /home/krissemmy/Downloads/alt-data-engr-1dfdbf9f8dbf.json ~/.google/credentials/google_credentials.json
