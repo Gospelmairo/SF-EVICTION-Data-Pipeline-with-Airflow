@@ -86,7 +86,7 @@ mv <path/to/your/service-account-authkeys>.json ~/.google/credentials/google_cre
   mv /Users/apostle/.google/credentialsgoogle_credentials.json ~/.google/credentials/google_credentials.json
    
 ```
-mv  /home/krissemmy/Downloads/alt-data-engr-1dfdbf9f8dbf.json ~/.google/credentials/google_credentials.json
+mv /Users/apostle/.google/credentialsgoogle_credentials.json ~/.google/credentials/google_credentials.json
 ```
 4. Install gcloud on system : open new terminal and run    (follow this link to install gcloud-sdk : https://cloud.google.com/sdk/docs/install-sdk)
 
@@ -103,7 +103,7 @@ mv  /home/krissemmy/Downloads/alt-data-engr-1dfdbf9f8dbf.json ~/.google/credenti
   Below is an example
 
   ```bash
-  export GOOGLE_APPLICATION_CREDENTIALS = "/home/krissemmy/.google/credentials/google_credentials.json"
+  export GOOGLE_APPLICATION_CREDENTIALS = "/Users/apostle/.google/credentials/google_credentials.json"
   ```
 6. Run gcloud auth application-default login
 7. Redirect to the website and authenticate local environment with the cloud environment
